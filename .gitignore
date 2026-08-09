@@ -3,6 +3,8 @@
 .DS_Store
 .RData*
 .Rhistory
+.Ruserdata
+
 __pycache__/
 *.pyc
 
@@ -12,4 +14,8 @@ __pycache__/
 *.log
 *.toc
 *.tex
+
 .positai
+
+.AppleDouble
+.LSOverride
