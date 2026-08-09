@@ -1,0 +1,190 @@
+---
+title: "Currículo Lattes"
+---
+
+::: titulo-nao-numerado
+Tutorial
+:::
+
+Este tutorial apresenta os passos básicos para criar e preencher o Currículo Lattes, explicando as principais seções da plataforma e orientando como inserir informações acadêmicas e profissionais de forma clara e organizada.
+
+::: subtitulo-nao-numerado
+Documentos necessários
+:::
+
+Antes de começar, tenha em mãos:
+
+-   Documento de identidade (RG ou CNH);
+-   CPF;
+-   Endereço completo;
+-   Telefones e e-mail (preferencialmente institucional, se já tiver);
+-   Histórico escolar e/ou diplomas de cursos concluídos;
+-   Certificados de participação em cursos, palestras ou congressos;
+-   Produções acadêmicas (artigos, resumos, apresentações);
+
+::: callout-important
+Sempre guarde cópias digitais (em PDF) de seus certificados. Isso facilita a atualização do currículo.
+:::
+
+::: subtitulo-nao-numerado
+1.  Acesso ao sistema
+:::
+
+Acesse: <https://lattes.cnpq.br> e clique em **Cadastrar novo currículo**. Crie uma senha de acesso (será usada para futuras atualizações).
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_1.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 1. </strong>Sistema CNPq</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_2.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 2. </strong>Sistema CNPq</figcaption>
+</figure>
+```
+
+<br>
+
+::: subtitulo-nao-numerado
+2.  Estrutura do Currículo Lattes
+:::
+
+O sistema é dividido em seções principais:
+
+-   **Dados gerais**: informações pessoais, endereço e contatos;\
+-   **Formação acadêmica**: ensino médio, graduação, cursos técnicos;\
+-   **Atuação profissional**: empregos, estágios, bolsas;\
+-   **Produções**: artigos, resumos em anais, capítulos de livro, apresentações de trabalho e outras produções acadêmicas.\
+-   **Eventos**: congressos, palestras, cursos de extensão.
+
+::: subtitulo-nao-numerado
+3.  Foto profissional
+:::
+
+A foto não é obrigatória, mas é **fortemente recomendada**, pois ajuda a identificar o pesquisador e transmite maior profissionalismo.
+
+::: callout-important
+**Dicas para a foto:** - Fundo neutro (branco, cinza ou azul claro);\
+- Roupas sóbrias (camisa, blazer, roupa formal);\
+- Evite adereços (óculos escuros, bonés, etc.);\
+- Expressão neutra ou sorriso discreto.
+:::
+
+::: subtitulo-nao-numerado
+4.  Inserção de dados pessoais e acadêmicos
+:::
+
+Preencha todos os dados solicitados (informações pessoais, endereço, contato e formação acadêmica).
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_3.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 3. </strong>Dados</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_4.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 4. </strong>Dados</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_5.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 5. </strong>Dados</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_6.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 6. </strong>Dados</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_7.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 7. </strong>Dados</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_8.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 8. </strong>Dados</figcaption>
+</figure>
+```
+
+<br>
+
+::: subtitulo-nao-numerado
+5.  Texto de apresentação
+:::
+
+Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pessoas o negligenciam, mas ele é fundamental.
+
+-   Formação atual (curso e instituição);
+-   Áreas de interesse;
+-   Participação em projetos (se houver);
+-   Objetivos acadêmicos e profissionais.
+
+::: callout-note
+**Exemplo de texto:**\
+"João Silva possui graduação em Engenharia Agrícola e Ambiental pela Universidade Federal Rural do Semi-Árido (UFERSA). Tem interesse nas áreas de irrigação e manejo sustentável da água. Participa de projeto de iniciação científica voltado ao estudo do uso eficiente de recursos hídricos. Pretende seguir carreira acadêmica e contribuir para o desenvolvimento de tecnologias voltadas à sustentabilidade."
+:::
+
+::: subtitulo-nao-numerado
+6.  Categorias de atividades
+:::
+
+| **Atividade** | **Onde inserir** |
+|------------------------------------|------------------------------------|
+| Eventos: congressos, feiras, seminários, simpósios – participação ou organização | Eventos: como ouvinte ou participante (com apresentação de trabalho – inserir o título) |
+| Palestras | Formação complementar: como “curso de curta duração” (caso haja carga horária especificada no certificado) |
+| Apresentação de trabalho | Produções: apresentação de trabalho |
+| Trabalhos publicados em anais de eventos | Produções: Trabalhos publicados em anais de eventos |
+| Iniciação Científica / Membro de equipe de pesquisa | Projetos \> Pesquisa |
+| Participação em Projeto de Extensão (longa duração) | Projetos \> Extensão |
+| Atividade pontual de Extensão | Formação complementar \> Extensão universitária ou outros (ex.: ação ambiental, saúde, escovódromo etc.) |
+| PET – Programa de Educação Tutorial | Projetos \> Outros |
+| PDAG / Monitoria em disciplina | Formação complementar \> Outros ou Projetos \> Outros (possível incluir orientador e descrição) |
+| PROAC – Programa de Aperfeiçoamento Profissional Continuado | Projetos \> Outros |
+| Olimpíadas | Eventos |
+| Artigos publicados (autor ou coautor) | Produções \> Produção bibliográfica (verificar a categoria adequada) |
+| Patentes | Patentes e registros |
+| Orientações (somente docentes de pós-graduação) | Orientações (mestrado ou doutorado). Para IC: cadastrar projeto de pesquisa e incluir-se como membro da equipe |
+| Trabalhos premiados / homenagens | Prêmios e títulos |
+| Membro de comissões e entidades estudantis | Outras informações relevantes |
+| Estágio remunerado ou obrigatório | Atuação profissional (com contrato assinado em empresa) |
+| Estágio não obrigatório | Formação complementar \> Outros (ex.: observações em hospitais, acompanhamento de projetos sem matrícula institucional) |
+| O que não se enquadra nos itens acima | Outras informações relevantes |
+
+<br/><br/>
+
+::: callout-tip
+**Boas práticas para manter o currículo atualizado**
+
+-   Atualize sempre que concluir um curso, participar de evento ou publicar um trabalho;\
+-   Revise ortografia e gramática;\
+-   Salve regularmente em PDF;\
+-   Evite informações irrelevantes (como cursos muito básicos ou antigos);\
+-   Peça que um professor revise sua primeira versão.
+:::

@@ -1,0 +1,227 @@
+---
+title: "Quais são os tipos de enunciados?"
+---
+
+::: nota-secundaria
+Roteiro de aula elaborado no RStudio com o auxílio de modelos de linguagem (IA) e supervisionado pelo professor antes de sua publicação.
+:::
+
+## Contextualização
+
+Nesta aula, vamos investigar como **diferentes tipos de enunciados** estruturam textos acadêmicos e influenciam a construção do conhecimento. Veremos que nem todos os enunciados desempenham a mesma função: alguns definem conceitos, outros descrevem fatos verificáveis, enquanto outros expressam avaliações ou utilizam linguagem vaga. Compreender essas diferenças é fundamental para identificar o que, de fato, está em discussão em um texto e para avaliar a qualidade de seus argumentos. Assim, será possível observar como a precisão ou a imprecisão da linguagem afeta a clareza, a possibilidade de verificação e a força argumentativa das afirmações.
+
+Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
+
+-   *analisar criticamente diferentes tipos de enunciados em textos, distinguindo enunciados que podem ou não ser avaliados como verdadeiros ou falsos e examinando como a precisão ou a vagueza da linguagem afeta a clareza, a verificabilidade e a força argumentativa.*
+
+::: leitura
+Leitura indicada:
+
+**O que está em discussão** (p. 10-26), capítulo do livro **Pensamento crítico: o poder da lógica e da argumentação**, de Walter Carnielli e Richard Epstein. Disponível na Biblioteca Virtual. Disponível na Minha Biblioteca.
+:::
+
+## Relebrando conceitos
+
+**Do texto à argumentação**
+
+::: rmdnote
+Ideia central: partimos do que está escrito (frase), situamos no contexto (enunciado) e, então, analisamos a função no argumento (asserção → premissa) e a base de sustentação (evidência).
+:::
+
+::: rmdnote
+**Nível 1 — Forma linguística: frase**
+
+O que é: unidade gramatical que você lê no texto.<br/> Pergunta-guia: isto é apenas uma construção linguística (pergunta, ordem, afirmação)?<br/> Exemplo: “Por que isso acontece?” (frase interrogativa)
+:::
+
+::: rmdnote
+**Nível 2 — Uso em contexto: enunciado**
+
+O que é: a frase “em situação” (quem diz/escreve, para quem, quando, com que finalidade).<br/> Pergunta-guia: em que contexto essa frase foi produzida e o que ela faz ali?<br/> Exemplo: a mesma frase pode funcionar como ironia, convite, acusação, definição etc., dependendo do contexto.
+:::
+
+::: rmdnote
+**Nível 3 — Compromisso com a verdade: asserção**
+
+O que é: enunciado declarativo em que o autor se compromete com a veracidade/aceitabilidade do conteúdo.<br/> Pergunta-guia: o autor está afirmando algo como verdadeiro?<br/> Exemplo: “A evasão em cursos X aumentou nos últimos cinco anos.”
+:::
+
+::: rmdnote
+**Nível 4 — Função inferencial no argumento: premissa**
+
+O que é: asserção usada como razão para sustentar uma conclusão.<br/> Perguntas-guia: - essa afirmação está sendo usada para justificar outra?<br/> - se eu retirar essa afirmação, a conclusão fica sem apoio?<br/> Marcadores comuns: “porque”, “já que”, “uma vez que”, “dado que”, “considerando que”.<br/> Exemplo: “A evasão aumentou” porque “faltam políticas de permanência”.
+:::
+
+::: rmdnote
+**Nível 5 — Base de justificação: evidência**
+
+O que é: dado/fonte/observação que torna uma premissa (ou conclusão) mais aceitável. Perguntas-guia: - de onde vem essa premissa?<br/> - que dado, documento, resultado, observação ou referência sustenta isso?<br/> Tipos frequentes: estatística, experimento, observação, citação de pesquisa, documento oficial, série histórica.<br/> Marcadores comuns: “segundo”, “dados de”, “conforme”, “o estudo X mostra”.<br/> Exemplos: “Censo 2022”, “Tabela 1”, “Relatório do MEC”, “Resultados do experimento”.
+:::
+
+::: rmdnote
+**Resumo visual**
+
+Fluxo<br/>
+
+*Frase* → (no contexto) → *Enunciado* → (se afirma algo) → *Asserção* → (se sustenta conclusão) → *Premissa* → (se apoiada por dados/fontes) → *Evidência*
+:::
+
+::: rmdnote
+**Atalho prático para leitura**
+
+-   O autor está afirmando algo? → Asserção<br/>
+-   Isso está sendo usado como razão para uma conclusão? → Premissa<br/>
+-   Que dados/fontes sustentam essa razão? → Evidência
+:::
+
+<br/>
+
+## Leitura em foco
+
+| Conceito | Definição operacional | Critério de análise | Exemplo típico | Função na análise |
+|----|----|----|----|----|
+| Definição | Enunciado que estabelece o significado de um termo | Não é verdadeira nem falsa; delimita uso | “Inteligência artificial é um conjunto de técnicas que permitem a sistemas computacionais simular processos cognitivos humanos.” | Aumenta a precisão conceitual |
+| Evidência | Informação que sustenta uma afirmação | Baseada em dados, fontes ou observação | resultados estatísticos, gráficos, tabelas | Fundamenta argumentos |
+| Avaliação | Enunciado que expressa julgamento ou valor | Não verificável empiricamente | “O método proposto apresenta resultados bastante satisfatórios.” | Introduz posicionamento |
+| Linguagem vaga | Uso de termos imprecisos ou indeterminados | Falta de critério mensurável | “muitos estudantes tiveram dificuldades” | Reduz clareza e testabilidade |
+| Ambiguidade | Enunciado com múltiplos sentidos possíveis | Mais de uma interpretação possível | “o sistema apresentou desempenho elevado” | Compromete interpretação |
+| Testabilidade | Possibilidade de verificar empiricamente um enunciado | Presença de critérios observáveis | “a temperatura foi mantida em 25°C durante todo o experimento” | Define cientificidade |
+
+## Aprendizagem prática
+
+::: subtitulo-nao-numerado
+Análise
+:::
+
+::: subsubtitulo-nao-numerado
+Precisão, vagueza e tipos de enunciados em texto científico
+:::
+
+Leia atentamente a introdução do artigo científico *"Estudantes de medicina versus chatbots na resolução de um teste médico: um estudo comparativo"*, escrito por Douglas La Maison, Amanda Silva, Bruno Glir e Ari Moré.[^aula_5-1]
+
+[^aula_5-1]: https://www.scielo.br/j/rbem/a/twfvMr9JTKBSJZLXgMhY4MF/?lang=pt
+
+Seu objetivo é analisar como a linguagem utilizada afeta a clareza, a precisão e a possibilidade de avaliação das afirmações.
+
+::: leitura
+Texto para análise:
+
+O ensino médico é avaliado por meio de Exames Nacionais de Licenciamento Médico em uma grande gama de países, como Estados Unidos, Alemanha e China. Esses exames buscam avaliar se a performance de estudantes de Medicina em competências médicas é suficiente para uma prática de excelência. Para além de uma ferramenta de avaliação de competências, os exames acabam servindo inclusive para guiar a evolução da educação médica, uma vez que seus resultados podem representar a qualidade das universidades e orientá-las para a melhoria de seu ensino. Entretanto, tais exames têm como objetivo principal o licenciamento, e não a avaliação do ensino médico1)-(3. Para tal propósito, desenvolveu-se em 1970, na University of Missouri-Kansas City School of Medicine, nos Estados Unidos, e na University of Limburg, na Holanda, uma ferramenta denominada Teste de Progresso (TP). O teste é constituído por questões de múltipla escolha que avaliam aspectos cognitivos, sendo o mesmo teste aplicado, ao mesmo tempo, para estudantes de todos os níveis do curso de Medicina. O processo de avaliação tem como objetivo compreender a correspondência entre o desempenho dos estudantes e o ano de estudo em que estão matriculados, além de analisar o desenvolvimento do aprendizado de um mesmo aluno ao longo do curso. Dessa maneira, os métodos didáticos são aperfeiçoados a partir da identificação de falhas em determinadas áreas de ensino, visualizadas nas curvas de desempenho acadêmico obtidas por meio dos resultados do TP4)-(9.
+
+No Brasil, a aplicação de TP é mais recente e suas questões são baseadas nas Diretrizes Curriculares Nacionais para escolas médicas. Relacionados à Associação Brasileira de Educação Médica (Abem), existem 16 núcleos interinstitucionais que reúnem uma certa quantidade de escolas médicas para aplicação do teste, possibilitando análises mais robustas e comparações. No Sul do país, há o Núcleo de Apoio Pedagógico Interinstitucional Sul II (Napisul-II), composto por seis escolas paranaenses e sete de Santa Catarina. Nesse núcleo, o TP teve sua 13ª edição em outubro de 202310.
+
+Recentemente, popularizou-se o uso de generative artificial intelligence (GAI), a qual se mostra promissora na área da educação11)-(15, e há na literatura pesquisas que envolvem o uso da GAI para resolução de Exames Nacionais de Licenciamento Médico16),(17. A GAI diz respeito a uma tecnologia capaz de produzir conteúdos com base em bancos de dados prévios18. Dentro do universo das IA generativas, encontra-se a família dos Generative Pre-trained Transformers (GPT), que são Large Language Models (LLM)19. Os LLM, por sua vez, são algoritmos de inteligência artificial (IA) projetados para determinar a probabilidade de determinadas sequências de palavras, levando em consideração o contexto das palavras que as antecedem20. O aperfeiçoamento desses algoritmos foi revolucionário no campo de Natural Language Processing (NLP), um tipo de aprendizado de máquina que simula a linguagem humana19.
+
+Considerando que a linguagem é um fator-chave no campo da medicina, os LLM mostram-se extremamente promissores em aprender a representar o conhecimento médico. Entretanto, é evidente que essas ferramentas denotam gerações de texto que podem não representar a veracidade da ciência médica ou de sua ética21. Mais recentemente, observou-se a popularização dos chatbots (ChatGPT, Bing, Bard) - interfaces para sistemas de IA baseados em modelos de linguagem grandes e generativos pré-treinados (GPT), que produzem textos semelhantes aos dos humanos em resposta às mensagens enviadas pelos usuários. Isso possibilitou que tais ferramentas, antes utilizadas apenas por profissionais relacionados às IA, sejam utilizadas pela população leiga, o que coloca sob apreciação a possibilidade e os perigos de seu uso no âmbito da educação médica19),(22),(23.
+
+Considerando tais possibilidades, foram desenvolvidas inúmeras pesquisas explorando as capacidades dessas ferramentas na resolução de exames de licenciamento médico, testes específicos de especialidades médicas ou de outras áreas da saúde e TP16),(17),(24)-(26. Obtiveram-se resultados complementares entre si, uma vez que o ChatGPT 4.0 teve no United States Medical Licensing Examination (USMLE) uma performance similar à de um estudante de terceiro ano de Medicina17. Além disso, o ChatGPT 4.0 se comportou como um residente do primeiro ano de cirurgia plástica25 e foi aprovado no Japanese Medical Licensing Examination16, o que demonstra seu potencial como instrumento de suporte interativo ao ensino médico.
+
+Evidencia-se uma lacuna na literatura científica no que diz respeito à comparação de desempenho entre múltiplos chatbots de LLM e estudantes brasileiros de Medicina, uma vez que já existem estudos semelhantes envolvendo discentes de outras nacionalidades ou limitados a apenas um chatbot27)-(30. Apesar de pesquisas internacionais fornecerem insights sobre o potencial dos chatbots de LLM na educação médica, a variabilidade cultural, linguística e principalmente curricular entre diferentes países sugere que os resultados e as implicações dessas tecnologias podem ser significativamente distintos no Brasil.
+
+Nesse contexto, o objetivo deste trabalho é preencher essa lacuna ao avaliar a efetividade de diferentes chatbots de LLM resolverem questões do TP Napisul-II. Isso envolve uma análise comparativa entre as respostas fornecidas por essas ferramentas de IA e as de estudantes do último semestre de Medicina, a fim de comparar o nível de precisão nas respostas. Tal investigação não apenas contribuirá para o entendimento da aplicabilidade dos chatbots de LLM na educação médica brasileira, mas também fornecerá insights valiosos sobre as potenciais limitações e vantagens dessas tecnologias emergentes no aprimoramento da qualidade do ensino e da avaliação médica.
+:::
+
+::: subtitulo-nao-numerado
+Orientação para análise
+:::
+
+Antes de responder à questão central desta aprendizagem prática, examine o texto e verifique se:
+
+-   Há **definições** (enunciados que delimitam o significado de termos)? Identifique-as.
+-   Há **expressões vagas** (termos imprecisos ou sem critério mensurável)? Localize exemplos.
+-   Quais afirmações são **verificáveis empiricamente** (podem ser consideradas verdadeiras ou falsas com base em dados ou observação)? Indique-as.
+-   Há afirmações com **traço avaliativo** (expressam julgamento, valor ou opinião)? Aponte quais.
+-   Há casos de **ambiguidade** ou falta de delimitação conceitual? Exemplifique.
+-   De que modo a linguagem utilizada afeta a **clareza, a precisão e a possibilidade de verificação científica** dos enunciados?
+
+::: destaque
+Nem todas as categorias precisam aparecer no texto — foque nas que você conseguir identificar e justificar com segurança.
+:::
+
+**Questão**
+
+Com base na leitura do texto, produza uma análise crítica integrada sobre o grau de precisão linguística e cientificidade do texto.
+
+Em sua resposta, você deve:
+
+-   identificar e comentar exemplos de definições, linguagem vaga e diferentes tipos de enunciados;
+-   explicar como esses elementos afetam a clareza e a possibilidade de verificação das informações;
+-   apresentar uma avaliação global do texto, indicando se ele se aproxima de um padrão científico rigoroso ou se apresenta limitações.
+
+**Estrutura da resposta** (template)
+
+Para organizar sua resposta, utilize o modelo abaixo como guia. Você pode adaptá-lo, mas deve contemplar todos os elementos.
+
+::: destaque
+**Análise do texto**
+
+O texto analisado apresenta diferentes tipos de enunciados, como definições, enunciados verificáveis e trechos avaliativos, o que influencia seu grau de precisão e cientificidade.
+
+Inicialmente, observa-se a presença de definições, como no trecho “\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_”. Esse enunciado pode ser considerado uma definição porque \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. Sua função no texto é \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+
+Além disso, o texto apresenta expressões vagas, como “\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_” e “\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_”. Essas expressões são vagas porque \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. Como consequência, \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+
+Por outro lado, há afirmações verificáveis, como “\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_”. Esse tipo de enunciado pode ser considerado verdadeiro ou falso porque \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+
+Também são identificadas afirmações com traço avaliativo, como “\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_”. Essas expressões indicam julgamento porque \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. Por isso, \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+
+Em alguns casos, observa-se ambiguidade ou falta de delimitação, como em “\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_”. Essa ambiguidade ocorre porque \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, o que pode gerar \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+
+De modo geral, a linguagem utilizada no texto \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. Isso ocorre porque \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+
+Assim, conclui-se que o texto \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, pois \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+:::
+
+<!-- Aqui começa o campo de respostas-->
+
+<details class="resposta-escondida">
+
+<summary>...</summary>
+
+1.  Definições (delimitação de termos)
+
+Exemplos: - “A GAI diz respeito a uma tecnologia capaz de produzir conteúdos com base em bancos de dados prévios.” - “Os LLM \[…\] são algoritmos de inteligência artificial \[…\] para determinar a probabilidade de determinadas sequências de palavras \[…\]”
+
+Justificativa: São definições operacionais: delimitam o significado dos termos (GAI, LLM), estabelecendo propriedades e função. Não são verdadeiras/falsas no mesmo sentido de enunciados factuais; fixam uso conceitual, aumentando a precisão e a possibilidade de comunicação intersubjetiva.
+
+2.  Expressões vagas (imprecisão/ausência de critério)
+
+Exemplos: - “uma grande gama de países” - “uma certa quantidade de escolas médicas” - “extremamente promissores” - “insights valiosos” - “inúmeras pesquisas” - “performance \[…\] suficiente para uma prática de excelência” - “representar a qualidade das universidades”
+
+Justificativa: Há indeterminação semântica (quantidade, intensidade, valor). Não há critérios mensuráveis (quantos países? quantas escolas? quão promissor?). Isso reduz a testabilidade e dificulta a avaliação crítica dos enunciados.
+
+3.  Afirmações verificáveis empiricamente (verdadeiro/falso)
+
+Exemplos: - “desenvolveu-se em 1970 \[…\] o Teste de Progresso (TP)” - “o TP teve sua 13ª edição em outubro de 2023” - “o Napisul-II é composto por seis escolas paranaenses e sete de Santa Catarina” - “o teste é constituído por questões de múltipla escolha \[…\] aplicado \[…\] a todos os níveis”
+
+Justificativa: São enunciados testáveis por dados/documentos (datas, instituições, composição, características operacionais). Podem ser confirmados ou refutados por evidência empírica.
+
+4.  Afirmações avaliativas (juízo/valor)
+
+Exemplos: - “prática de excelência” - “análises mais robustas” - “extremamente promissores” - “é evidente que \[…\]” - “insights valiosos” - “potencial como instrumento de suporte”
+
+Justificativa: Contêm marcadores avaliativos (adjetivos intensificadores, advérbios, modalizações). Não são diretamente verificáveis; expressam julgamento e dependem de critérios implícitos.
+
+5.  Ambiguidade/falta de delimitação
+
+Não identifiquei enunciados ambíguos.
+
+6.  (Ausência de) indexicais
+
+Observação: Não há uso de “eu”, “aqui”, “agora” etc.
+
+Justificativa: O texto mantém impessoalidade típica do discurso científico, favorecendo generalização e reprodutibilidade. A referência é estável e não dependente do contexto imediato do enunciador.
+
+Conclusão: O texto se aproxima do padrão científico (pela presença de definições e dados verificáveis), mas apresenta fragilidades pontuais decorrentes de linguagem vaga e avaliativa, sobretudo em trechos de contextualização e justificativa. Tais elementos diminuem o poder de teste e a clareza intersubjetiva dos enunciados.
+
+</details>
+
+<!-- Aqui encerra o campo de respostas-->
+
+<br/>
+
+::: proxima-aula
+[Para a próxima aula:]{.proxima-aula-title}
+
+-   **Leia** o texto **O que é um bom argumento** (p. 27-42), capítulo do livro *Pensamento crítico: o poder da lógica e da argumentação*, de Walter Carnielli e Richard Epstein.
+:::

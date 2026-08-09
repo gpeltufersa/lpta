@@ -1,0 +1,117 @@
+#  Apresentação {.unnumbered}
+
+```{=html}
+<style>
+#title-block-header {
+  display: none !important;
+}
+
+</style>
+```
+
+::::: capa-livro
+::: capa-etiqueta
+Disciplina
+:::
+
+::: capa-titulo
+Leitura e Produção de Textos Acadêmicos
+:::
+:::::
+
+Este livro digital apoia a disciplina Leitura e Produção de Textos Acadêmicos (LPTA), ofertada no primeiro semestre da Licenciatura em Letras Português da Universidade Federal Rural do Semi-Árido (UFERSA).
+
+Aqui você encontrará roteiros de aula, tutoriais, modelos e materiais complementares voltados ao desenvolvimento de práticas de letramento acadêmico-científico no ensino superior.
+
+::: titulo-nao-numerado
+Organização
+:::
+
+Este livro digital está organizado em módulos conceituais, como se apresentam abaixo:
+
+::: subtitulo-nao-numerado
+Unidades
+:::
+
+Incluem os roteiros das aulas das três unidades do semestre letivo. Os conteúdos serão disponibilizados gradualmente ao longo do semestre.
+
+::: subtitulo-nao-numerado
+Tutoriais
+:::
+
+Reúnem orientações práticas sobre ferramentas úteis à formação universitária.
+
+::: subtitulo-nao-numerado
+Modelos
+:::
+
+Disponibilizam estruturas e exemplos de gêneros acadêmicos trabalhados na disciplina.
+
+::: subtitulo-nao-numerado
+Avaliações
+:::
+
+Apresentam orientações sobre os instrumentos de avaliação utilizados ao longo do semestre.
+
+::: subtitulo-nao-numerado
+Complementos
+:::
+
+Reúnem materiais auxiliares, cronogramas, painéis, guias, entre outros.
+
+::: subtitulo-nao-numerado
+Busca
+:::
+
+O livro digital conta com um sistema de busca, localizado no menu lateral esquerdo, que permite localizar rapidamente aulas, conceitos, modelos, orientações e materiais complementares por meio de palavras-chave.
+
+::: titulo-nao-numerado
+Orientações aos estudantes
+:::
+
+::: subtitulo-nao-numerado
+Pontualidade e assiduidade
+:::
+
+A assiduidade e a pontualidade são condições importantes para o bom aproveitamento da disciplina. Como as atividades serão desenvolvidas de modo progressivo, faltas frequentes ou atrasos recorrentes podem comprometer o seu desempenho na disciplina.
+
+::: subtitulo-nao-numerado
+Participação nas aulas
+:::
+
+A participação envolve escuta atenta, realização das atividades, colaboração nas discussões, leitura dos materiais propostos e envolvimento nas etapas de escrita, revisão e reescrita.
+
+::: subtitulo-nao-numerado
+Uso de dispositivos eletrônicos
+:::
+
+O uso de celular, computador ou tablet é permitido exclusivamente para a realização das atividades da disciplina e mediante orientação do professor.
+
+Durante a aula, os dispositivos eletrônicos devem permanecer guardados e em modo silencioso ou desligados, salvo quando seu uso for solicitado pelo professor.
+
+::: subtitulo-nao-numerado
+Uso de inteligência artificial
+:::
+
+O uso de ferramentas de inteligência artificial é permitido em atividades específicas, desde que orientado pelo professor e realizado de forma ética, crítica e transparente.
+
+Modelos de linguagem (como ChatGPT, Claude e DeepSeek) não devem substituir a autoria do seu texto, nem ser utilizados para apresentar como própria uma produção textual elaborada integralmente por sistemas de inteligência artificial. Quando indicado pelo professor, essas ferramentas serão utilizadas como apoio ao planejamento, à organização de ideias, à revisão textual, ao aprimoramento da clareza da escrita e à reflexão sobre o próprio processo de produção textual.
+
+Sempre que ferramentas de inteligência artificial forem utilizadas na realização de uma atividade, você deverá declarar esse uso.
+
+::: subtitulo-nao-numerado
+Prazos e entregas
+:::
+
+As atividades devem ser entregues nos prazos estabelecidos. Atrasos podem comprometer o acompanhamento processual da escrita, especialmente quando uma etapa depende da anterior.
+
+```{=html}
+<script>
+  if (location.protocol !== 'file:' && location.hostname !== 'localhost') {
+    var senha = prompt("Este conteúdo é restrito a alunos da disciplina Leitura e Produção de Textos Acadêmicos. Por favor, digite a senha de acesso:");
+    if (senha !== "20262lpta") {
+      document.body.innerHTML = "<h1>Acesso negado</h1>";
+    }
+  }
+</script>
+```

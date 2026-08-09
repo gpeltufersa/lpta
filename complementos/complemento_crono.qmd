@@ -1,0 +1,73 @@
+---
+title: "Cronograma de aulas"
+---
+
+::: titulo-nao-numerado
+Cronograma de aulas (em constante atualização)
+:::
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(googlesheets4)
+library(dplyr)
+library(knitr)
+library(kableExtra)
+
+googlesheets4::gs4_deauth()
+
+url <- "https://docs.google.com/spreadsheets/d/1C8iaK5cIXu5h20At5pnALHRMY-g716--GfRJEfmHf3M"
+
+ler_cronograma <- function(url, aba, tentativas = 3) {
+  for (i in seq_len(tentativas)) {
+    resultado <- try(
+      googlesheets4::read_sheet(
+        ss = url,
+        sheet = aba
+      ),
+      silent = TRUE
+    )
+
+    if (!inherits(resultado, "try-error")) {
+      return(resultado)
+    }
+
+    if (i < tentativas) {
+      Sys.sleep(3 * i)
+    }
+  }
+
+  stop(
+    "Não foi possível acessar a planilha do cronograma após ",
+    tentativas,
+    " tentativas."
+  )
+}
+
+cronograma <- ler_cronograma(
+  url = url,
+  aba = "cronograma_anete"
+) |>
+  filter(if_any(everything(), ~ !is.na(.x))) |>
+  select(where(~ !all(is.na(.x)))) |>
+  mutate(
+    Data = format(as.Date(Data), "%d/%m/%Y"),
+    across(where(is.character), ~ gsub("ANETE", "LPTA", .x, fixed = TRUE))
+  )
+
+knitr::kable(
+  cronograma,
+  caption = "Cronograma de encontros da disciplina",
+  format = "html",
+  align = c("c", rep("l", ncol(cronograma) - 1))
+) |>
+  kableExtra::kable_styling(
+    full_width = TRUE,
+    bootstrap_options = c("striped", "hover", "condensed"),
+    position = "center",
+    htmltable_class = "cronograma-fixo",
+    font_size = 13
+  )
+```

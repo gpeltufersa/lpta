@@ -1,0 +1,69 @@
+---
+title: "O que é ciência?"
+---
+
+::: nota-secundaria
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT e supervisionado pelo professor antes de sua publicação.
+:::
+
+## Contextualização
+
+Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
+
+- *Blá bá blá.*
+
+::: leitura
+Leitura indicada:
+
+**Afinal, o que é Ciência?** (p. 9-12), capítulo do livro *Afinal o que é ciência?... e o que não é*, de André Demambre Bacchi. Disponível na Minha Biblioteca.
+:::
+
+## Leitura em foco
+
+**Gêneros textuais**...
+
+- são realizações linguísticas concretas definidas por propriedades sociocomunicativas;
+- constituem textos empiricamente realizados, cumprindo funções em situações comunicativas;
+- a sua nomeação abrange um conjunto aberto e praticamente ilimitado de designações concretas determinadas por canal, estilo, conteúdo, composição e função.
+
+<br/> Compreender o funcionamento dos gêneros acadêmicos exige não apenas o reconhecimento de suas funções sociocomunicativas, mas também a análise de como essas funções se concretizam linguisticamente. É nesse ponto que entra o conceito de estrutura retórica.
+
+::: citacao
+A partir de Swales (2004)[^aula_modelo-1], pode-se definir **estrutura retórica** como a organização funcional de um gênero textual em movimentos retóricos recorrentes, orientados para o cumprimento de objetivos comunicativos específicos. Essa estrutura considera o contexto de produção, a audiência e as convenções disciplinares ou culturais da comunidade discursiva a que pertence o gênero.
+
+Ainda em linha com Swales (2004), um **movimento retórico** é uma unidade discursiva que desempenha uma função comunicativa coerente em um discurso escrito ou oral.
+
+<img src="img/move_geral.png" alt="Práticas sociais" class="img-central"/>
+:::
+
+[^aula_modelo-1]: SWALES, J. M. Research Genres Explorations and Applications. Cambridge: Cambridge University Press, 2004.
+
+<br/>
+
+Agora vamos aprofundar nosso conhecimento sobre a estrutura retórica de alguns dos gêneros textuais mais recorrentes na esfera universitária, a começar pelo **resumo**.
+
+O **resumo** - ou *abstract*, em inglês - é um gênero textual que sintetiza as informações mais relevantes de um trabalho científico. Esse gênero pode ocorrer de maneira autônoma, como em resumos publicados isoladamente nos anais de eventos acadêmicos ou em bancos de dados, ou ainda integrar outras produções científicas, como artigos, relatórios técnicos, dissertações e teses, funcionando como parte estratégica do texto completo.
+
+::: citacao
+Como sintetizam Motta-Roth e Rabuske (2010), para que cumpra seu papel com clareza e eficácia, o resumo precisa organizar-se em movimentos retóricos específicos, que orientam o leitor quanto ao contexto da pesquisa, aos objetivos e métodos empregados, e aos principais resultados alcançados.
+
+<img src="img/moves.png" alt="Práticas sociais" class="img-central"/>
+:::
+
+## Aprendizagem prática
+
+[Veja a **Atividade de pesquisa: movimentos retóricos do resumo**](pesquisa_01.qmd)
+
+## Atividade complementar: Registro dos artigos selecionados no [Padlet](https://padlet.com/mariomartins/anete-2025-1-b3r3eohs4gd7np8m)
+
+::: subtitulo-nao-numerado
+🎯 Objetivo
+:::
+
+Consolidar a pesquisa bibliográfica por meio do registro dos dois primeiros artigos científicos selecionados, com foco no tema de pesquisa individual.
+
+::: destaque
+- Estude os artigos!
+:::
+
+------------------------------------------------------------------------

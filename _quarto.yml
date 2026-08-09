@@ -1,0 +1,119 @@
+project:
+  type: book
+  output-dir: docs
+
+language:
+  locale: pt
+  title-block-author-single: "Professor"
+  callout-tip-title: "Dica"
+  callout-note-title: "Nota"
+  labels:
+    fig: "Figura"
+    tab: "Tabela"
+
+book:
+  title: "LPTA"
+  author: "Ananias Silva"
+
+  search:
+    location: sidebar
+    type: textbox
+
+  sidebar:
+    style: docked
+    collapse-level: 1
+    pinned: true
+
+  navbar:
+    pinned: true
+    title: "LPTA"
+    background: "#ffffff"
+    foreground: "#1C2B4A"
+    left:
+      - text: ""
+
+  page-footer:
+    right: |
+      <img src="/img/logo_ufersa.png"
+           alt="Logotipo da UFERSA"
+           class="logo-rodape">
+
+  chapters:
+    - index.qmd
+
+    - part: "Programa"
+      chapters:
+        - aulas/programa.qmd
+
+    - part: "Unidade I"
+      chapters:
+        #- aulas/Aula_0.qmd
+        - aulas/Aula_1.qmd
+        #- aulas/Aula_2.qmd
+        #- aulas/Aula_3_ciencia.qmd
+        #- aulas/Aula_4.qmd
+        #- aulas/Aula_5.qmd
+        #- aulas/Aula_6.qmd
+        #- aulas/Aula_7.qmd
+
+    #- part: "Unidade II"
+      #chapters:
+        #- aulas/Aula_8_problemapesquisa.qmd
+        #- aulas/Aula_9_divulgacaocientifica.qmd
+        #- aulas/Aula_10_artigocientifico.qmd
+        #- aulas/Aula_11_introducaoartigo.qmd
+        #- aulas/Aula_12_resumocientifico.qmd
+        #- aulas/Aula_13_projetopesquisa.qmd
+
+    #- part: "Unidade III"
+      #chapters:
+        #- aulas/Aula_15_justificativa.qmd
+        #- aulas/Aula_16_referencial.qmd
+        #- aulas/Aula_17_metodologia.qmd
+
+    #- part: "Tutoriais"
+      #chapters:
+        #- tutoriais/tutorial_lattes.qmd
+        #- tutoriais/tutorial_zotero.qmd
+        #- tutoriais/tutorial_capes.qmd
+
+    #- part: "Modelos"
+      #chapters:
+        #- modelos/modelo_relatorio.qmd
+        #- modelos/modelo_video.qmd
+        #- modelos/modelo_projetopesquisa.qmd
+
+    #- part: "Avaliações"
+      #chapters:
+        #- avaliacoes/avaliacao_segunda_2026_1.qmd
+        #- avaliacoes/avaliacao_terceira_2026_1.qmd
+
+    - part: "Complementos"
+      chapters:
+        #- complementos/complemento_painel.qmd
+         - complementos/complemento_crono.qmd
+        #- complementos/complemento_projeto_pesquisa.qmd
+        #- complementos/complemento_agendamento.qmd
+
+format:
+  html:
+    highlight-style: atom-one
+    theme:
+      - cosmo
+    css: custom.css
+    toc: true
+    toc-title: "Índice"
+    toc-depth: 3
+    callout-appearance: minimal
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
+
+editor: visual
+
+
+# git add .
+
+# git commit -m "Atualização de aula"
+
+# git push origin main

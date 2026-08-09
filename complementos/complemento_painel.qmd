@@ -1,0 +1,235 @@
+---
+title: "Painel de respostas"
+---
+
+Este é o seu caderno de respostas da disciplina Leitura e Produção de Textos Acadêmicos. Para cada tarefa, preencha o formulário abaixo com atenção. Após o envio, você receberá o feedback por e-mail assim que for revisado pelo professor.
+
+```{=html}
+<style>
+  #formulario-lpta {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 28px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    font-family: "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  #formulario-lpta label {
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 16px;
+    font-weight: 600;
+    color: #243E6A;
+  }
+
+  #formulario-lpta input,
+  #formulario-lpta select,
+  #formulario-lpta textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+  }
+
+  #formulario-lpta input:focus,
+  #formulario-lpta select:focus,
+  #formulario-lpta textarea:focus {
+    border-color: #243E6A;
+    outline: none;
+  }
+
+  #formulario-lpta textarea {
+    min-height: 180px;
+    resize: vertical;
+  }
+
+  #contador {
+    font-size: 13px;
+    color: #666;
+    text-align: right;
+    margin-top: 4px;
+  }
+
+  #formulario-lpta button {
+    background-color: #243E6A;
+    color: white;
+    font-weight: 600;
+    padding: 12px 24px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+  }
+
+  #formulario-lpta button:hover {
+    background-color: #1b3154;
+  }
+
+  #formulario-lpta button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+
+  #mensagem-envio {
+    margin-top: 28px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+  }
+</style>
+
+<form id="formulario-lpta">
+
+  <label for="nome">Nome completo</label>
+  <input type="text" id="nome" name="nome" autocomplete="name" required>
+
+  <label for="email">E-mail institucional</label>
+  <input type="email" id="email" name="email" autocomplete="email" required>
+
+  <label for="turma">Turma</label>
+  <select id="turma" name="turma" required>
+    <option value="">--Selecione--</option>
+    <option value="Turma 3">Turma 3</option>
+    <option value="Turma 4">Turma 4</option>
+  </select>
+
+  <label for="unidade">Unidade da disciplina</label>
+  <select id="unidade" name="unidade" required>
+    <option value="">--Selecione--</option>
+    <option value="Unidade 1 – Pensamento científico">Unidade 1 – Pensamento científico</option>
+  </select>
+
+  <label for="tarefa">Qual tarefa você está enviando?</label>
+  <select id="tarefa" name="tarefa" required>
+    <option value="">--Selecione--</option>
+    <option value="Currículo Lattes">Apresentação do Currículo Lattes</option>
+    <option value="Ceticismo organizado">Ceticismo organizado</option>
+    <option value="Tipos de enunciados">Tipos de enunciados</option>
+    <option value="Bom argumento">Bom argumento</option>
+    <option value="Paráfrase">Paráfrase</option>
+  </select>
+
+  <label for="versao">Versão do texto</label>
+  <select id="versao" name="versao" required>
+    <option value="">--Selecione--</option>
+    <option value="Versão inicial">Versão inicial</option>
+    <option value="Versão revisada">Versão revisada</option>
+  </select>
+
+  <label for="texto">Digite aqui o texto da atividade</label>
+  <textarea id="texto" name="texto" placeholder="Digite aqui seu texto..." maxlength="12000" required></textarea>
+
+  <p style="font-size:13px;color:#666;margin-top:6px">
+Digite apenas o texto da atividade. Não inclua título, nome ou identificação no corpo do texto.
+</p>
+
+<div id="contador">0 caracteres</div>
+
+<p style="font-size:12px;color:#777;text-align:right">
+máximo de 12.000 caracteres
+</p>
+
+  <button type="submit">Enviar</button>
+
+</form>
+
+<div id="mensagem-envio"></div>
+
+<script>
+
+const formulario = document.getElementById("formulario-lpta");
+const mensagem = document.getElementById("mensagem-envio");
+const texto = document.getElementById("texto");
+const contador = document.getElementById("contador");
+const botao = formulario.querySelector("button");
+
+texto.addEventListener("input", () => {
+
+  const caracteres = texto.value.length;
+  const palavras = texto.value.trim().split(/\s+/).filter(Boolean).length;
+
+  contador.textContent = caracteres + " caracteres • " + palavras + " palavras";
+
+});
+
+formulario.addEventListener("submit", function(event) {
+
+  event.preventDefault();
+
+  if (texto.value.trim().length < 20) {
+  mensagem.textContent = "⚠️ O texto parece muito curto. Verifique antes de enviar.";
+  mensagem.style.color = "#dc3545";
+  return;
+}
+
+botao.disabled = true;
+botao.textContent = "Enviando...";
+
+  const params = new URLSearchParams();
+
+  params.append("nome", document.getElementById("nome").value);
+  params.append("email", document.getElementById("email").value);
+  params.append("turma", document.getElementById("turma").value);
+  params.append("unidade", document.getElementById("unidade").value);
+  params.append("tarefa", document.getElementById("tarefa").value);
+  params.append("versao", document.getElementById("versao").value);
+  params.append("texto", texto.value);
+
+  fetch("https://script.google.com/macros/s/AKfycbwscxwh1NXUWNTjydwa6zu8K2yh9JdukF0g0Z2yYiJPlQNx9oxdPz3PCwMpIi1Rh7MU/exec", {
+    method: "POST",
+    body: params,
+    headers: { "Content-Type": "application/x-www-form-urlencoded" }
+  })
+
+  .then(response => response.text())
+
+  .then(() => {
+
+    mensagem.textContent = "✅ Texto enviado com sucesso! Aguarde o feedback por e-mail.";
+    mensagem.style.color = "#28a745";
+
+    formulario.reset();
+    contador.textContent = "0 caracteres";
+
+    botao.disabled = false;
+    botao.textContent = "Enviar";
+
+    mensagem.scrollIntoView({behavior: "smooth"});
+
+  })
+
+  .catch(() => {
+
+    mensagem.textContent = "❌ Ocorreu um erro ao enviar. Tente novamente.";
+    mensagem.style.color = "#dc3545";
+
+    botao.disabled = false;
+    botao.textContent = "Enviar";
+
+  });
+
+});
+
+</script>
+```
+
+```{=html}
+<!--
+<option value="A verdade está lá fora">A verdade está lá fora</option>
+    <option value="Periódico científico">Periódico científico</option>
+    <option value="Paráfrase">Paráfrase</option>
+    <option value="Introdução do plano de trabalho">Introdução do plano de trabalho</option>
+    <option value="Justificativa do plano de trabalho">Justificativa do plano de trabalho</option>
+    <option value="Objetivos do plano de trabalho">Objetivos do plano de trabalho</option>
+    <option value="Outra">Outra</option>
+    -->
+```
