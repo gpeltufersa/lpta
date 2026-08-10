@@ -48,7 +48,7 @@ book:
     - part: "Unidade I"
       chapters:
         #- aulas/Aula_0.qmd
-        - aulas/Aula_1.qmd
+         - aulas/Aula_1.qmd
         #- aulas/Aula_2.qmd
         #- aulas/Aula_3_ciencia.qmd
         #- aulas/Aula_4.qmd
@@ -71,9 +71,9 @@ book:
         #- aulas/Aula_16_referencial.qmd
         #- aulas/Aula_17_metodologia.qmd
 
-    #- part: "Tutoriais"
-      #chapters:
-        #- tutoriais/tutorial_lattes.qmd
+    - part: "Tutoriais"
+      chapters:
+        - tutoriais/tutorial_lattes.qmd
         #- tutoriais/tutorial_zotero.qmd
         #- tutoriais/tutorial_capes.qmd
 
@@ -91,7 +91,8 @@ book:
     - part: "Complementos"
       chapters:
         #- complementos/complemento_painel.qmd
-         - complementos/complemento_crono.qmd
+        #- complementos/complemento_crono.qmd
+         - complementos/complemento_texto_aula_1.qmd
         #- complementos/complemento_projeto_pesquisa.qmd
         #- complementos/complemento_agendamento.qmd
 
