@@ -6,7 +6,7 @@ title: "Como está organizada a disciplina LPTA?"
 Ementa
 :::
 
-Compreensão e produção de textos acadêmicos na perspectiva da metodologia científica e da análise de gêneros. Elaboração de resenha, resumo e artigo científico. Práticas danosas na academia: o caso do plágio. 
+Compreensão e produção de textos acadêmicos na perspectiva da metodologia científica e da análise de gêneros. Elaboração de resenha, resumo e artigo científico. Práticas danosas na academia: o caso do plágio.
 
 ::: titulo-nao-numerado
 Objetivos
@@ -24,6 +24,7 @@ Conteúdo programático
 Unidade I – Ciência e pensamento científico
 :::
 
+```{=html}
 <!--
 - O sistema acadêmico brasileiro e a vida universitária
 - Produção e circulação do conhecimento científico
@@ -33,11 +34,13 @@ Unidade I – Ciência e pensamento científico
 - Critérios para avaliação de argumentos
 - Linguagem científica: objetividade, credibilidade e autoridade
 -->
+```
 
 ::: subtitulo-nao-numerado
 Unidade II – Comunicação acadêmica escrita
 :::
 
+```{=html}
 <!--
 - Gêneros textuais acadêmicos e seus propósitos comunicativos
 - Leitura crítica de textos científicos
@@ -48,11 +51,13 @@ Unidade II – Comunicação acadêmica escrita
 - Divulgação científica para públicos especializados e não especializados
 - Produção, revisão e reescrita de textos acadêmicos
 -->
+```
 
 ::: subtitulo-nao-numerado
 Unidade III – Projeto de pesquisa
 :::
 
+```{=html}
 <!--
 - O projeto de pesquisa como gênero acadêmico-científico
 - Delimitação do tema e formulação do problema de pesquisa
@@ -63,6 +68,7 @@ Unidade III – Projeto de pesquisa
 - Revisão e aperfeiçoamento do projeto
 - Elaboração do plano de trabalho conforme editais de iniciação científica
 -->
+```
 
 ::: titulo-nao-numerado
 Competências e habilidades

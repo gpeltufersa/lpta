@@ -33,7 +33,7 @@ book:
       - text: ""
 
   page-footer:
-    right: |
+    center: |
       <img src="/img/logo_ufersa.png"
            alt="Logotipo da UFERSA"
            class="logo-rodape">
@@ -48,8 +48,8 @@ book:
     - part: "Unidade I"
       chapters:
         #- aulas/Aula_0.qmd
-         - aulas/Aula_1.qmd
-        #- aulas/Aula_2.qmd
+        - aulas/Aula_1.qmd
+        - aulas/Aula_2.qmd
         #- aulas/Aula_3_ciencia.qmd
         #- aulas/Aula_4.qmd
         #- aulas/Aula_5.qmd
@@ -91,8 +91,7 @@ book:
     - part: "Complementos"
       chapters:
         #- complementos/complemento_painel.qmd
-        #- complementos/complemento_crono.qmd
-         - complementos/complemento_texto_aula_1.qmd
+        - complementos/complemento_crono.qmd
         #- complementos/complemento_projeto_pesquisa.qmd
         #- complementos/complemento_agendamento.qmd
 
@@ -109,6 +108,7 @@ format:
     smooth-scroll: true
     code-copy: true
     code-overflow: wrap
+    include-after-body: _includes/controles-acessibilidade.html
 
 editor: visual
 
@@ -118,3 +118,4 @@ editor: visual
 # git commit -m "Atualização de aula"
 
 # git push origin main
+
