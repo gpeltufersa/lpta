@@ -1165,3 +1165,171 @@ body.modo-projecao .lpta-controles button {
   }
 }
 
+/* =========================================================
+   CARROSSEL DIDÁTICO
+   ========================================================= */
+
+.carrossel-aula {
+  width: 100%;
+  max-width: 980px;
+  margin: var(--espaco-lg) 0;
+}
+
+.carrossel-slides {
+  background-color: var(--cor-fundo-gelo);
+  border: 1px solid var(--cor-borda-sutil);
+  border-left: 5px solid var(--cor-enfase);
+  border-radius: var(--raio-lg);
+  box-shadow: var(--sombra-sutil);
+  overflow: hidden;
+}
+
+.carrossel-slide-conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 300px;
+  padding: 2.5rem 3rem;
+  box-sizing: border-box;
+}
+
+.carrossel-slide-inicial {
+  align-items: center;
+  text-align: center;
+}
+
+.carrossel-afirmacao {
+  width: 100%;
+  max-width: none;
+  margin: 0 0 1.5rem;
+  font-family: var(--fonte-display);
+  font-size: var(--t-xl);
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--cor-primaria);
+}
+
+.carrossel-slide-inicial .carrossel-afirmacao {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: var(--t-2xl);
+}
+
+.carrossel-pergunta {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  font-family: var(--fonte-corpo);
+  font-size: var(--t-md);
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--cor-texto);
+}
+
+
+/* Navegação */
+
+.carrossel-navegacao {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.8rem;
+}
+
+.carrossel-botao {
+  padding: 0.6rem 1rem;
+  font-family: var(--fonte-corpo);
+  font-size: var(--t-sm);
+  font-weight: 700;
+  color: var(--cor-primaria);
+  background-color: #ffffff;
+  border: 1px solid var(--cor-borda-sutil);
+  border-radius: var(--raio);
+  cursor: pointer;
+}
+
+.carrossel-botao:hover,
+.carrossel-botao:focus-visible {
+  color: #ffffff;
+  background-color: var(--cor-secundaria);
+  border-color: var(--cor-secundaria);
+}
+
+
+/* Indicadores */
+
+.carrossel-indicadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.carrossel-indicadores button {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: var(--cor-borda-sutil);
+  cursor: pointer;
+}
+
+.carrossel-indicadores button.active {
+  background-color: var(--cor-primaria);
+}
+
+
+/* =========================================================
+   CARROSSEL — MODO PROJEÇÃO
+   ========================================================= */
+
+body.modo-projecao .carrossel-aula {
+  max-width: 100% !important;
+}
+
+body.modo-projecao .carrossel-slide-conteudo {
+  min-height: 470px;
+  padding: 3.5rem 4rem;
+}
+
+body.modo-projecao .carrossel-afirmacao {
+  font-size: clamp(2rem, 3.2vw, 3rem);
+}
+
+body.modo-projecao .carrossel-slide-inicial .carrossel-afirmacao {
+  font-size: clamp(2.8rem, 4vw, 4rem);
+}
+
+body.modo-projecao .carrossel-pergunta {
+  font-size: clamp(1.45rem, 2.2vw, 2rem);
+}
+
+body.modo-projecao .carrossel-botao {
+  font-size: 1.1rem;
+  padding: 0.75rem 1.2rem;
+}
+
+
+/* =========================================================
+   CARROSSEL — CELULAR
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .carrossel-slide-conteudo {
+    min-height: 320px;
+    padding: 1.75rem 1.25rem;
+  }
+
+  .carrossel-navegacao {
+    grid-template-columns: auto 1fr auto;
+    gap: 0.5rem;
+  }
+
+  .carrossel-botao {
+    padding: 0.5rem 0.65rem;
+    font-size: 0.85rem;
+  }
+}

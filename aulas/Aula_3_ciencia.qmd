@@ -45,125 +45,147 @@ Esses conhecimentos são obtidos, confrontados e atualizados por meio de um mét
 O <strong>pensamento científico</strong> se aplica sempre que buscamos tomar decisões baseadas em evidências (e não nos costumes ou na intuição).
 
 ```{=html}
-<div class="carrossel-aula" data-carrossel>
+<div id="carrossel-pensamento-cientifico"
+     class="carousel slide carrossel-aula"
+     data-bs-interval="false"
+     data-bs-wrap="false">
 
-  <div class="carrossel-slides">
+  <div class="carousel-inner carrossel-slides">
 
-    <div class="carrossel-slide ativo">
-      <p align="center" class="carrossel-afirmacao">
-        Quando pensamos cientificamente?
-      </p>
-    </div>
-    
-    <div class="carrossel-slide ativo">
-      <p class="carrossel-afirmacao">
-        ... quando questionamos informações antes de aceitá-las como verdadeiras
-      </p>
-      <p class="carrossel-pergunta">
-        Como avaliar se um vídeo na internet que promete curar dores nas
-        articulações com uma receita caseira é confiável?
-      </p>
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <div class="carrossel-slide-conteudo carrossel-slide-inicial">
+        <p class="carrossel-afirmacao">
+          Quando pensamos cientificamente?
+        </p>
+      </div>
     </div>
 
-    <div class="carrossel-slide">
-      <p class="carrossel-afirmacao">
-        ... quando buscamos explicações fundamentadas e verificáveis sobre os fenômenos do mundo
-      </p>
-      <p class="carrossel-pergunta">
-        Como investigar por que a conta de água da sua casa aumentou muito
-        em comparação com os meses anteriores?
-      </p>
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <div class="carrossel-slide-conteudo">
+        <p class="carrossel-afirmacao">
+          ... quando questionamos informações antes de aceitá-las como verdadeiras
+        </p>
+
+        <p class="carrossel-pergunta">
+          Como avaliar se um vídeo na internet que promete curar dores nas
+          articulações com uma receita caseira é confiável?
+        </p>
+      </div>
     </div>
 
-    <div class="carrossel-slide">
-      <p class="carrossel-afirmacao">
-        ... quando analisamos causas e efeitos com base em dados, não em suposições
-      </p>
-      <p class="carrossel-pergunta">
-        Como verificar se o aumento no tempo de uso do celular está afetando
-        a qualidade do sono?
-      </p>
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <div class="carrossel-slide-conteudo">
+        <p class="carrossel-afirmacao">
+          ... quando buscamos explicações fundamentadas e verificáveis sobre os fenômenos do mundo
+        </p>
+
+        <p class="carrossel-pergunta">
+          Como investigar por que a conta de água da sua casa aumentou muito
+          em comparação com os meses anteriores?
+        </p>
+      </div>
     </div>
 
-    <div class="carrossel-slide">
-      <p class="carrossel-afirmacao">
-        ... quando testamos hipóteses e aprendemos com os erros
-      </p>
-      <p class="carrossel-pergunta">
-        Se uma planta da casa está murchando, como testar se o problema é
-        falta de água, excesso de sol ou qualidade do solo?
-      </p>
+    <!-- Slide 4 -->
+    <div class="carousel-item">
+      <div class="carrossel-slide-conteudo">
+        <p class="carrossel-afirmacao">
+          ... quando analisamos causas e efeitos com base em dados, não em suposições
+        </p>
+
+        <p class="carrossel-pergunta">
+          Como verificar se o aumento no tempo de uso do celular está afetando
+          a qualidade do sono?
+        </p>
+      </div>
     </div>
 
-    <div class="carrossel-slide">
-      <p class="carrossel-afirmacao">
-        ... quando rejeitamos conclusões apressadas e consideramos a complexidade dos contextos
-      </p>
-      <p class="carrossel-pergunta">
-        Como avaliar a afirmação de que “os jovens de hoje não gostam de ler”
-        sem se basear apenas em experiências pessoais?
-      </p>
+    <!-- Slide 5 -->
+    <div class="carousel-item">
+      <div class="carrossel-slide-conteudo">
+        <p class="carrossel-afirmacao">
+          ... quando testamos hipóteses e aprendemos com os erros
+        </p>
+
+        <p class="carrossel-pergunta">
+          Se uma planta da casa está murchando, como testar se o problema é
+          falta de água, excesso de sol ou qualidade do solo?
+        </p>
+      </div>
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="carousel-item">
+      <div class="carrossel-slide-conteudo">
+        <p class="carrossel-afirmacao">
+          ... quando rejeitamos conclusões apressadas e consideramos a complexidade dos contextos
+        </p>
+
+        <p class="carrossel-pergunta">
+          Como avaliar a afirmação de que “os jovens de hoje não gostam de ler”
+          sem se basear apenas em experiências pessoais?
+        </p>
+      </div>
     </div>
 
   </div>
 
   <div class="carrossel-navegacao">
-    <button type="button" class="carrossel-anterior" aria-label="Item anterior">
+
+    <button class="carrossel-botao"
+            type="button"
+            data-bs-target="#carrossel-pensamento-cientifico"
+            data-bs-slide="prev">
       ‹ Anterior
     </button>
 
-    <span class="carrossel-contador" aria-live="polite">1 / 5</span>
+    <div class="carrossel-indicadores">
+      <button type="button"
+              data-bs-target="#carrossel-pensamento-cientifico"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Tela 1"></button>
 
-    <button type="button" class="carrossel-proximo" aria-label="Próximo item">
+      <button type="button"
+              data-bs-target="#carrossel-pensamento-cientifico"
+              data-bs-slide-to="1"
+              aria-label="Tela 2"></button>
+
+      <button type="button"
+              data-bs-target="#carrossel-pensamento-cientifico"
+              data-bs-slide-to="2"
+              aria-label="Tela 3"></button>
+
+      <button type="button"
+              data-bs-target="#carrossel-pensamento-cientifico"
+              data-bs-slide-to="3"
+              aria-label="Tela 4"></button>
+
+      <button type="button"
+              data-bs-target="#carrossel-pensamento-cientifico"
+              data-bs-slide-to="4"
+              aria-label="Tela 5"></button>
+
+      <button type="button"
+              data-bs-target="#carrossel-pensamento-cientifico"
+              data-bs-slide-to="5"
+              aria-label="Tela 6"></button>
+    </div>
+
+    <button class="carrossel-botao"
+            type="button"
+            data-bs-target="#carrossel-pensamento-cientifico"
+            data-bs-slide="next">
       Próximo ›
     </button>
+
   </div>
 
 </div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
-  document.querySelectorAll("[data-carrossel]").forEach(function (carrossel) {
-
-    const slides = carrossel.querySelectorAll(".carrossel-slide");
-    const anterior = carrossel.querySelector(".carrossel-anterior");
-    const proximo = carrossel.querySelector(".carrossel-proximo");
-    const contador = carrossel.querySelector(".carrossel-contador");
-
-    let atual = 0;
-
-    function mostrarSlide(indice) {
-      slides.forEach(function (slide) {
-        slide.classList.remove("ativo");
-      });
-
-      slides[indice].classList.add("ativo");
-      contador.textContent = (indice + 1) + " / " + slides.length;
-
-      anterior.disabled = indice === 0;
-      proximo.disabled = indice === slides.length - 1;
-    }
-
-    anterior.addEventListener("click", function () {
-      if (atual > 0) {
-        atual--;
-        mostrarSlide(atual);
-      }
-    });
-
-    proximo.addEventListener("click", function () {
-      if (atual < slides.length - 1) {
-        atual++;
-        mostrarSlide(atual);
-      }
-    });
-
-    mostrarSlide(atual);
-  });
-
-});
-</script>
 ```
 
 <br/>
@@ -195,7 +217,9 @@ Estabeleça a correspondência entre cada forma de pensar cientificamente e sua 
 
 <details class="resposta-escondida">
 
-<summary></summary>
+<summary>
+
+</summary>
 
 A - 5
 
@@ -250,7 +274,9 @@ Responda por escrito à seguinte pergunta: *A receita apresentada no vídeo pode
 
 <details class="resposta-escondida">
 
-<summary></summary>
+<summary>
+
+</summary>
 
 Quais são os elementos não científicos no vídeo?
 
@@ -307,7 +333,7 @@ Desafio
 Vamos estimular nosso pensamento científico?
 :::
 
-Desenvolver o pensamento científico e o senso crítico não depende apenas do acesso a informações, mas sobretudo da capacidade de organizar o pensamento, identificar padrões, formular hipóteses, interpretar dados e avaliar explicações possíveis para um problema. Essas são habilidades fundamentais para a produção de conhecimento científico.
+Desenvolver o pensamento científico e o senso crítico não depende apenas do acesso a informações, mas sobretudo da **capacidade de organizar o pensamento, identificar padrões, formular hipóteses, interpretar dados e avaliar explicações possíveis para um problema**. Essas são habilidades fundamentais para a produção de conhecimento científico.
 
 Um dos caminhos para exercitar essas competências é o **pensamento analítico**. Ele consiste na capacidade de observar informações, reconhecer regularidades, testar possibilidades e tirar conclusões a partir de evidências ou regras identificadas.
 
@@ -316,7 +342,6 @@ Embora o exercício a seguir não seja um problema científico no sentido estrit
 Para exercitá-las, segue um desafio que exigirá de você concentração, raciocínio lógico e uma boa dose de curiosidade. Em duplas, resolvam a questão abaixo.
 
 ::: destaque
-
 Àṣẹ! O iorubá é, junto com as línguas bantu de Angola como o kimbundu, uma das principais línguas de herança africana no Brasil e na cultura brasileira. Do acarajé aos orixás, muitas são as nossas heranças iorubá.
 
 Na língua iorubá acontece um fenômeno interessante, presente em diversas línguas ao redor do mundo, que consiste na formação de novas palavras a partir da duplicação de uma palavra ou de parte dela. Seguem abaixo algumas palavras em iorubá e suas versões duplicadas, além das respectivas traduções:
@@ -327,32 +352,35 @@ Na língua iorubá acontece um fenômeno interessante, presente em diversas lín
 
 Com isso, quais as traduções, respectivamente, de ‘um’, ‘qualquer’, e ‘semanalmente’?
 
-a) ọ̀kan, èyíkèyí, ọ̀sọ̀ọ̀sẹ̀
-b) ọ̀kọ̀kan, èyèèyí, ọ̀sẹ̀kọ́sẹ̀
-c) ọ̀kan, èyíkèyí, ọ̀sẹ̀kọ́sẹ̀
-d) ọ̀kọ̀kan, èyíkéyí, ọ̀sọ̀ọ̀sẹ̀
-e) ọ̀kan, èyíkéyí, ọ̀sọ̀ọ̀sẹ̀
+a)  ọ̀kan, èyíkèyí, ọ̀sọ̀ọ̀sẹ̀
+b)  ọ̀kọ̀kan, èyèèyí, ọ̀sẹ̀kọ́sẹ̀
+c)  ọ̀kan, èyíkèyí, ọ̀sẹ̀kọ́sẹ̀
+d)  ọ̀kọ̀kan, èyíkéyí, ọ̀sọ̀ọ̀sẹ̀
+e)  ọ̀kan, èyíkéyí, ọ̀sọ̀ọ̀sẹ̀
 
-Nota: Em iorubá, a letra o é pronunciada como o ‘ó’ em ‘pó’; e é como ‘é’ em ‘café’; gb é pronunciado como uma única consoante. O acento grave (`) e o acento agudo (´) representam tom baixo e tom alto,
-respectivamente.
+Nota: Em iorubá, a letra o é pronunciada como o ‘ó’ em ‘pó’; e é como ‘é’ em ‘café’; gb é pronunciado como uma única consoante. O acento grave (\`) e o acento agudo (´) representam tom baixo e tom alto, respectivamente.
 :::
 
 <!-- Aqui começa o campo de respostas -->
 
 <details class="resposta-escondida">
-<summary></summary>
+
+<summary>
+
+</summary>
+
 **Resposta: E**
 
 O problema apresenta duas formas de reduplicação em iorubá, dentre outras que existem na língua: a forma 1 dá o sentido de “todo, cada” e a forma 2 dá o sentido de “qualquer”:
 
-| Tipo | Forma básica | Tradução | Forma duplicada | Tradução |
-|:---:|---:|:---|---:|:---|
-| 1 | odún | *ano* | odoodún | ***todo ano*** |
-| 1 | àárọ̀ | *manhã* | àràárọ̀ | ***cada manhã*** |
-| 1 | ọjọ́ | *dia* | ojọọjọ́ | ***dia-a-dia*** |
-| 2 | ọ̀sẹ̀ | *semana* | ọ̀sẹ̀kọ́sẹ̀ | ***qualquer semana*** |
-| 2 | ohun | *objeto* | ohunkóhun | ***qualquer coisa*** |
-| 2 | ìgbà | *duração* | ìgbàkígbà | ***a qualquer momento*** |
+| Tipo | Forma básica | Tradução  | Forma duplicada | Tradução                 |
+|:----:|-------------:|:----------|----------------:|:-------------------------|
+|  1   |         odún | *ano*     |         odoodún | ***todo ano***           |
+|  1   |         àárọ̀ | *manhã*   |          àràárọ̀ | ***cada manhã***         |
+|  1   |          ọjọ́ | *dia*     |          ojọọjọ́ | ***dia-a-dia***          |
+|  2   |          ọ̀sẹ̀ | *semana*  |         ọ̀sẹ̀kọ́sẹ̀ | ***qualquer semana***    |
+|  2   |         ohun | *objeto*  |       ohunkóhun | ***qualquer coisa***     |
+|  2   |         ìgbà | *duração* |       ìgbàkígbà | ***a qualquer momento*** |
 
 <br>
 
@@ -360,7 +388,7 @@ O problema apresenta duas formas de reduplicação em iorubá, dentre outras que
 
 Na forma 1, podemos ver que o fim da forma duplicada é idêntico à palavra em sua forma básica. A mudança acontece no início, onde adicionamos, nesta ordem: a primeira vogal da palavra, a primeira consoante e, novamente, a primeira vogal.
 
-> **odún:** o + d + o + odún = **odoodún**  
+> **odún:** o + d + o + odún = **odoodún**\
 > **àárọ̀:** à + r + à + àárọ̀ = **àràárọ̀**
 
 No segundo exemplo, os dois **à** se juntam, restando apenas um deles.
@@ -378,7 +406,7 @@ Na forma 2, a palavra é duplicada completamente e recebe um **k** entre as duas
 **Resumo**
 
 | Tipo | Sentido | Processo | Variação tonal |
-|:---:|---|:---:|---|
+|:------------------:|----------------|:------------------:|----------------|
 | 1 | “todo X” ou “cada X” | V₁ + C₁ + V₁ + X | Nenhuma |
 | 2 | “qualquer X” | X + k + X | A primeira vogal da repetição recebe tom alto |
 
@@ -399,6 +427,7 @@ A palavra para **“semanalmente”**, que significa “a cada semana”, é for
 Portanto, a resposta correta é a **letra E**.
 
 </details>
+
 <!-- Aqui encerra o campo de respostas -->
 
 ::: proxima-aula
@@ -408,3 +437,4 @@ Portanto, a resposta correta é a **letra E**.
 
 - ...e também **Observe, test, reflect: A better life with the scientific method**, artigo de Santiago Gisler publicado pela *Ivory Embassy*. Disponível em: https://ivoryembassy.com/the-scientific-method/.
 :::
+
